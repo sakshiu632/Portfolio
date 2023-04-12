@@ -1,0 +1,120 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	transition: all 0.3s ease;
+}
+.weight-500 {
+	font-weight: 500;
+}
+.navbar-nav {
+	font-weight: 600;
+}
+.btn {
+	position: relative;
+	padding: 13.5px 36px;
+	font-weight: 700;
+	border-radius: 30px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn-primary {
+	background-image: radial-gradient( circle farthest-corner at 14.2% 27.5%, rgba(104,199,255,1) 0%, rgba(181,126,255,1) 90% );
+	border: rgba(255,211,165,1);
+	transition: all 0.3s ease;
+}
+.btn-primary:hover {
+	opacity: 0.8;
+}
+.banner-image {
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+.social-icons a {
+	margin-right: 15px;
+	color: #999;
+}
+.social-icons a:hover {
+	color: #333;
+}
+.service-bg {
+	background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(253,101,133,1) 0%, rgba(255,211,165,1) 90% );
+	color: #fff;
+}
+.service-bg svg {
+	width: 45px;
+	height: auto;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.pp {
+	line-height: 48px;
+}
+.portfolio-bg {
+	background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+}
+.card {
+	border: 0;
+	margin: 12px;
+	outline: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.card:hover {
+	box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+.slick-prev:before, .slick-next:before {
+	font-size: 20px;
+	line-height: 1;
+	opacity: .75;
+	color: #999;
+}
+.clients-bg {
+	background-image: linear-gradient( 89.2deg, rgba(109,192,236,1) 22.3%, rgba(191,241,236,1) 84.1% );
+	color: #fff;
+}
+.yy img {
+	filter: brightness(0) invert(1);
+	cursor: pointer;
+	transition: all 0.3s ease;
+	height: 40px;
+	width: auto;
+}
+.yy img:hover {
+	filter: grayscale(10%);
+	opacity: 0.9;
+}
+.contact-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.owl-carousel .owl-item img {
+	width: auto !important;
+	display: inline-block;
+}
+.profile-circel-image-70 img {
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+}
+.commo img {
+	width: 70px;
+	height: auto;
+}
+.hh li {
+	padding-top: 5px;
+}
+.vv {
+	transition: all 0.3s ease;
+}
+@media(max-width:998px) {
+.banner-image {
+	background-position: center right -150px;
+	background-size: contain;
+}
+}
